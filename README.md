@@ -44,3 +44,9 @@
    
   #### Facing any diffcuilt in runing website.Please Download the this folder as zip and extract, Run the index.html file in browser
    
+   
+ # OutPut
+ 
+ ![Card Number 1](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Card%20number%201.PNG)
+ 
+ 
