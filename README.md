@@ -47,22 +47,22 @@
    
  # OutPut
  
- ## Empty Layout
+ ## 1) Empty Layout
  ![Empty Layout](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/intro.PNG )
  
- ## Empty database
+ ## 2) Empty database
  ![Empty database](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Empty%20database.PNG)
  
- ## Card Number 1
+ ## 3) Card Number 1
  ![Card Number 1](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Card%20number%201.PNG)
  
- ## Card 1 stored in firebase database
+ ## 4) Card 1 stored in firebase database
  ![Card 1 stored in firebase database](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/card%201%20stored%20in%20firebase.PNG)
  
- ## Card Number 2
+ ## 5) Card Number 2
  ![Card Number 2](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Card%20number%202.PNG)
  
-  ## Card 2 stored in firebase database
+  ## 6) Card 2 stored in firebase database
  ![Card 2 stored in firebase database](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/card%202%20stored%20in%20firebase.PNG)
  
   ## Card Number 3
