@@ -1,6 +1,6 @@
 # Shortest way to Check Card details
 
-## ValidatingCardNumberAndExpDate
+## ValidatingCardNumberAndCVV
 * Store card details in a database, 
 * basic validation like validating card number and expiration date
 
