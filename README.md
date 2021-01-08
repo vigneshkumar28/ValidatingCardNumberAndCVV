@@ -1,4 +1,30 @@
-# Shortest way to Check Card details
+# Check Card details
+
+# Question
+
+Design a webpage to capture card details. Include basic validation like validating card number
+
+and expiration date. Also include a field for name on card and cvv.
+
+Store card details in a database and show success message when stored.
+
+1) You are allowed to use any frontend technologies. React would be preferred but
+
+html,css and javascript will also do. Other frameworks you can consider - Angular, Vue
+
+2) You can use any backend and any database. Most easy would be Firebase. You can
+
+also consider any backend language with in-memory database. Most recommended
+
+would be node.js with express and mongodb.
+
+3) Regarding the validation for credit card number. It needs to be all numbers and should
+
+be 16 digits long. Provide appropriate error message in line using javascript.
+
+4) Expiration date can be input text or dropdown.
+
+# Solution
 
 ## ValidatingCardNumberAndCVV
 * Store card details in a database, 
