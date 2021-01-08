@@ -5,6 +5,11 @@
 * basic validation like validating card number and expiration date
 
 
+### Using
+* Firebase
+* HTML, Java script and css
+* Payform interface
+
 
 ### Logic
 
