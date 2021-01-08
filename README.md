@@ -47,10 +47,10 @@
    
  # OutPut
  
- ## 1) Empty Layout
+ ## 1) Layout
  ![Empty Layout](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/intro.PNG )
  
- ## 2) Empty database
+ ## 2) Created New Empty Real time Database
  ![Empty database](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Empty%20database.PNG)
  
  ## 3) Card Number 1
@@ -65,16 +65,18 @@
   ## 6) Card 2 stored in firebase database
  ![Card 2 stored in firebase database](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/card%202%20stored%20in%20firebase.PNG)
  
-  ## Card Number 3
+  ## 7) Card Number 3
  ![Card Number 3](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Card%20number%203.PNG)
  
-  ## Card 3 stored in firebase database
+  ## 8) Card 3 stored in firebase database
  ![Card 3 stored in firebase database](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/card%203%20stored%20in%20firebase.PNG)
  
- ## Wrong card Number Notifcations
+ ## 9) Wrong card Number Notifcations
  ![Wrong card Number](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Wrong%20card%20number.PNG)
  
- # All 3 Cards are successfully stored in Firebase realtime database
+ # 10) All 3 Cards are successfully stored in Firebase realtime database
  ![alt text](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/ALL%203%20cards%20in%20db.PNG)
  
  
+ 
+<h2 align="center"> Thanks for Visiting! Have a Nice Day:innocent:</h2>
