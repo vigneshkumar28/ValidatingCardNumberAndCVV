@@ -47,22 +47,32 @@
    
  # OutPut
  
+ ## Empty Layout
  ![Empty Layout](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/intro.PNG )
+ 
+ ## Empty database
  ![Empty database](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Empty%20database.PNG)
  
+ ## Card Number 1
  ![Card Number 1](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Card%20number%201.PNG)
  
+ ## Card 1 stored in firebase database
  ![Card 1 stored in firebase database](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/card%201%20stored%20in%20firebase.PNG)
  
+ ## Card Number 2
  ![Card Number 2](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Card%20number%202.PNG)
  
+  ## Card 2 stored in firebase database
  ![Card 2 stored in firebase database](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/card%202%20stored%20in%20firebase.PNG)
  
+  ## Card Number 3
  ![Card Number 3](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Card%20number%203.PNG)
  
+  ## Card 3 stored in firebase database
  ![Card 3 stored in firebase database](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/card%203%20stored%20in%20firebase.PNG)
  
- ![alt text](http://url/to/img.png)
+ ## Wrong card Number
+ ![Wrong card Number](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Wrong%20card%20number.PNG)
  
  ![alt text](http://url/to/img.png)
  
