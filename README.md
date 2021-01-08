@@ -71,11 +71,10 @@
   ## Card 3 stored in firebase database
  ![Card 3 stored in firebase database](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/card%203%20stored%20in%20firebase.PNG)
  
- ## Wrong card Number
+ ## Wrong card Number Notifcations
  ![Wrong card Number](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Wrong%20card%20number.PNG)
  
- ![alt text](http://url/to/img.png)
+ # All 3 Cards are successfully stored in Firebase realtime database
+ ![alt text](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/ALL%203%20cards%20in%20db.PNG)
  
- ![alt text](http://url/to/img.png)
  
- ![alt text](http://url/to/img.png)
