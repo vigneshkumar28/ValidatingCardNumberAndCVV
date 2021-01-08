@@ -79,4 +79,4 @@
  
  
  
-<h2 align="center"> Thanks for Visiting! Have a Nice Day:innocent::smiley:</h2>
+<h2 align="center"> Thanks for Visiting! :innocent::smiley:</h2>
