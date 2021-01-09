@@ -70,7 +70,7 @@ be 16 digits long. Provide appropriate error message in line using javascript.
  * EXPIRY (MM/YYYY) : 10/2025
    
    
-  #### Facing any diffcuilt in runing website.Please Download the this folder as zip and extract, Run the index.html file in browser
+  #### Facing any difficulties in runing website.Please Download the this folder as zip and extract, Run the index.html file in browser
    
    
  # OutPut
