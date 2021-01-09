@@ -47,7 +47,7 @@ be 16 digits long. Provide appropriate error message in line using javascript.
 * validateCardCVC(CVV.val())  ->   using payform interface
 * payform.parseCardType()   -> is used to change the types of card in mastercard, amex and visa.
 
-### Testing Vaild Temp cards [ Ref: https://www.vccgenerator.com/]
+### Testing Vaild Temp cards [ For More Valid Cards Ref: https://www.vccgenerator.com/]
 1)
 * CARD BRAND : VISA
 * CARD NUMBER : 4201348489345670   
