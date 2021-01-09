@@ -101,8 +101,10 @@ be 16 digits long. Provide appropriate error message in line using javascript.
  ![Wrong card Number](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Wrong%20card%20number.PNG)
  
  # 10) All 3 Cards are successfully stored in Firebase realtime database
- ![alt text](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/ALL%203%20cards%20in%20db.PNG)
+ ![ALL cards in Firebase](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/ALL%203%20cards%20in%20db.PNG)
  
+ # Hosted in https://cardcheckervigneshkumarr.000webhostapp.com/
+ ![Hosted in Webhost website](https://github.com/vigneshkumar28/ValidatingCardNumberAndCVV/blob/main/Output_Images/Hosted%20in%20000webhost.PNG)
  
  
 <h2 align="center"> Thanks for Visiting! :innocent::smiley:</h2>
